@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex: auto 1 1;
+    margin-right: 0;
+}
+
+.pagination {
+    @apply flex justify-center mt-4;
+}
+
+.pagination > * {
+    @apply px-2 py-1;
+}
+
+.pagination .active {
+    @apply bg-blue-500 text-white;
+}
+
+.pagination .disabled {
+    @apply opacity-50 cursor-not-allowed;
+}
+
+.shadow-box {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px,
+        rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+}
