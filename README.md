@@ -23,6 +23,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
+5. 🚀 [Plus](#plus)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -100,3 +101,7 @@ php artisan serve
 ```
 
 Open [http://localhost:8000](http://localhost:8000) in your browser to view the project.
+
+## 🚀 Plus
+
+### You like or wanna fork it ? Give it a Star ⭐️ !
